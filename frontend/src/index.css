@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans:wght@100;200;300;400&display=swap');
+
+*{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,input,button{
+
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+
+    height: 100vh;
+    width: 100vw;
+    background-color:grey;
+    overflow-x: hidden;
+ 
+  
+
+}
+
+.account {
+  color: white;
+  text-transform: uppercase;
+
+}
+
+h1{
+
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.Robot{
+
+   height: 2rem;
+   margin-top: 100px;
+   margin-left: 200px;
+  
+}
+
+@media only screen and (max-width: 480px) and (min-width: 300px) {
+
+   #robo{
+
+        display: none;
+   }
+}
+
+
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+
+  form{
+
+      margin-left: -900px;
+
+  }
+
+  #robo{
+
+       display: none;
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 1024px) {
+
+  #robo{
+
+      display: none;
+     
+  }
+
+}
+
+#img{
+
+    height: 90vh;
+    width: 50vw;
+    border-radius: 50px;
+    position: relative;
+    top: 20px;
+}
+
+btn:hover{
+
+    background-color: green;
+}
+
+.navbar{
+
+    width: 120vw;
+    
+}
+
+
+
+.me-auto{
+
+    gap: 4rem;
+   
+}
+
+
+#nav{
+
+  background-color: grey;
+  line-height: 24px;
+  font-size: 16px;
+  position: relative;
+  left: -300px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+#basic-navbar-nav{
+
+     position: relative;
+     left: 300px;
+     font-weight: bold;
+     font-family: 'Josefin Sans', sans-serif;
+     color: black;
+
+}
+
+#brand{
+
+  font-weight: bold;
+  font-family: 'Josefin Sans', sans-serif;
+  position: relative;
+  left: 100px;
+}
+
+#login{
+
+   margin-left: 100px;
+   border-radius: 15px;
+
+   font-weight: bold;
+}
+
+#signup{
+  
+  border-radius: 15px;
+  font-weight: bold;
+
+}
+.conatiner{
+
+    height: 50vh;
+}
+
+   
+
+#image-pic{
+
+
+    height: 100vh;
+    width: 85vw;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+#inp{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   position: relative;
+   left: 650px;
+   top:  100px;
+   width: 28vw;
+   height: 7.6vh;
+   border-radius: 30px;
+   background-color: color;
+   box-shadow: 0 5px 10px 0 rgba(0,0,0,.2);
+   padding-left: 20px;
+   
+}
+
+.inputData{
+
+    position: relative;
+    left: -70px;
+}
+
+
+#button{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ position: relative;
+ left: 945px;
+ top:  50px;
+ width: 8rem;
+ height: 2.7rem;
+ border-radius: 20px;
+ background-color: blue;
+ border: none;
+ color: white;
+
+
+}
+
+Link{
+
+    text-decoration: none;
+}
+
+input{
+
+   border: none;
+}
+
+.cards{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 10px;
+    top: 160px;
+    gap: 3rem;
+    border-radius: 20px;
+    left: -1px;
+    
+}
+
+#card1{
+
+  box-shadow: 0 10px 10px 0 rgba(0,0,0,.2);
+  font-weight: bold;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#card:hover{
+
+    transform: scale(1.01);
+    transition: 1.5s ease-in-out;
+    
+}
+
+.card2{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  right: 10px;
+  top: 100px;
+  gap: 3rem;
+  border-radius: 20px;
+  position: relative;
+  top: 300px;
+  left: -1px;
+
+   
+}
+
+
+#h1{
+
+  position: relative;
+  top: 250px;
+  left: 300px;
+  font-weight: bold;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.card3{
+
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  right: 10px;
+  top: 200px;
+  gap: 3rem;
+  border-radius: 20px;
+  top: 300px;
+  position: relative;
+  top: 380px;
+  left: -1px;
+
+}
+
+.footer{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 600px;
+    background-color: #111827;
+    width: 120vw;
+    height: 50vh;
+    
+}
+
+#doc{
+
+    color: black;
+    text-decoration: none;
+}
+
+.text-uppercase{
+
+  color: white;
+}
+
+.list{
+
+   color: white;
+  list-style: none;
+}
+
+#subscribeInput{
+
+    background-color: black; 
+     border: 0.2px solid white;
+     border-radius: 50px;
+     width: 14vw;
+     height: 6vh;
+    margin-left: -40px;
+}
+
+#subscribeInput:hover{
+
+   border: 2px solid blue;
+}
+
+.subscribeInputField{
+
+   margin-top: 50px;
+
+}
+
+#h2{
+
+  font-size: 1.2rem;
+  margin-left: -50px;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 10px;
+  margin-left: -200px;
+}
+
+#h3{
+
+  font-size: 1.2rem;
+  margin-left: -300px;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#subscribeBtn{
+
+
+  width: 8rem;
+ height: 2.7rem;
+ border-radius: 20px;
+ background-color: blue;
+ border: none;
+ color: white;
+ margin-left: 10px;
+
+}
+
+#div2{
+
+   position: relative;
+   top: 50px;
+   left: -170px;
+}
